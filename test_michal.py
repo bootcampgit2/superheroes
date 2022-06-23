@@ -30,6 +30,3 @@ class Superbohater:
         print(self.life_points - x)
 
 superman = Superbohater('superman')
-print(superman.name,superman.superpowers,superman.life_points)
-superman.attack()
-superman.decrease_life(15)
