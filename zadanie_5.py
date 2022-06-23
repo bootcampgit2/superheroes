@@ -1,6 +1,6 @@
 import random
 
-class Heroe:
+class Hero:
     def __init__(self, name, superpowers, life_points):
         self.name = name
         self.superpowers = superpowers
@@ -14,7 +14,7 @@ class Heroe:
         self.life_points -= decrease_points
         return self.life_points
 
-my_hero = Heroe("Sherlock", 'deduction', 100)
+my_hero = Hero("Sherlock", 'deduction', 100)
 print(my_hero.name, my_hero.superpowers, my_hero.life_points)
 print(my_hero.attack())
 print(my_hero.decrease_life(3))
