@@ -15,3 +15,8 @@ class Potworek:
 
 
 super_potworek = Potworek ('Potwor', ['gryzak','krzyk'])
+
+print(super_potworek.attack())
+print(super_potworek.life_points)
+super_potworek.decrease_life(1)
+print(super_potworek.life_points)
