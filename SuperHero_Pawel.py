@@ -30,5 +30,5 @@ class superhero:
 
 
 pawel = superhero('pawel')
-pawel.decrease_life(pawel.attack())
-print(pawel.life_points)
+###pawel.decrease_life(pawel.attack())
+#print(pawel.life_points)
