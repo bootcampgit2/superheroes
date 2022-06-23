@@ -15,7 +15,7 @@
 # import superman from zadanie_superheroes
 #
 import random
-from statistics import mean
+
 
 
 class Superbohater:
