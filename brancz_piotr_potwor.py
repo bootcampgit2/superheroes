@@ -31,4 +31,3 @@ class Pijany_Lesniczy:
 
 
 potwor = Pijany_Lesniczy("Mieczyslaw",['strzelanie', 'krzyk'])
-print((potwor.attack()))
