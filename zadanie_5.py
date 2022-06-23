@@ -15,9 +15,10 @@ class Hero:
         return self.life_points
 
 my_hero = Hero("Sherlock Holmes", "deduction")
-print(my_hero.name, my_hero.superpowers, my_hero.life_points)
-print(my_hero.attack())
-print(my_hero.decrease_life(3))
+# print(my_hero.name, my_hero.superpowers, my_hero.life_points)
+# print(my_hero.life_points)
+# print(my_hero.attack())
+# print(my_hero.decrease_life(3))
 
 
 
