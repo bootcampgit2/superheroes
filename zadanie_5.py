@@ -1,10 +1,10 @@
 import random
 
 class Hero:
-    def __init__(self, name, superpowers, life_points):
+    def __init__(self, name, superpowers):
         self.name = name
         self.superpowers = superpowers
-        self.life_points = life_points
+        self.life_points = random.randint(1, 10)
 
     def attack(self):
         self.life_points = random.randint(1, 10)
@@ -14,7 +14,7 @@ class Hero:
         self.life_points -= decrease_points
         return self.life_points
 
-my_hero = Hero("Sherlock", 'deduction', 100)
+my_hero = Hero("Sherlock", 'deduction')
 print(my_hero.name, my_hero.superpowers, my_hero.life_points)
 print(my_hero.attack())
 print(my_hero.decrease_life(3))
