@@ -18,7 +18,7 @@
 
 import random
 class Pijany_Lesniczy:
-        def __init__(self, name, superpowers, life_points):
+        def __init__(self, name, superpowers):
             self.name = name
             self.superpowers=superpowers
             self.life_points=random.randint((1,10))
@@ -31,4 +31,4 @@ class Pijany_Lesniczy:
 
 
 potwor = Pijany_Lesniczy("Mieczyslaw",['strzelanie', 'krzyk'])
-print((potwor.attack())
+print((potwor.attack()))
