@@ -12,5 +12,26 @@
 # # # # (x wchodzi jako parameter do funkcji: def decrease_life(self, x) )
 # # #
 # # # # Tworze obiekt poprzez: superman = Superman()
-# import superman from zadanie_superheroes
-#
+# import superman from zadanie_supe
+
+
+
+
+import random
+
+class Potwor:
+    def __init__(self, name, superpower, life_points)
+        self.name = name
+        self.name = superpower
+        self.life_points = life_points
+
+
+
+
+    def attack(selfself):
+        return random.randint(1,10)
+    def decrease_life(self,x):
+        self.life_points -= x
+
+super_ciastko = SuperCiastko('supercistko', ["raz", "dwa" , "trzy"])
+print(super_ciastko.attack())
