@@ -25,16 +25,16 @@ class Superman:
     def __init__(self, name):
         self.name = name
         self.superpowers = ['ab','bc','cd']
-        self.lifepoints = random.randint(1,10)
+        self.life_points = random.randint(1,10)
 
     def attack(self):
-        atttack = random.randit(1,10)
+        atttack = random.randint(1,10)
         return atttack
 
 
     def decrease_life(self, x):
-        old = self.lifepoints
-        self.lifepoints -= x
+        old = self.life_points
+        self.life_points -= x
 
 
 superman = Superman('superman')

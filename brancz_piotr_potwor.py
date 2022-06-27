@@ -25,6 +25,7 @@ class Pijany_Lesniczy:
 
         def attack (self):
             atak_liczba=random.randint(1,10)
+            return atak_liczba
 
         def decrease_life (self, x):
             self.life_points-=x
