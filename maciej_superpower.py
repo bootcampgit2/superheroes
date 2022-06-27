@@ -22,7 +22,7 @@ import random
 
 
 class Superman:
-    def __init__(self, name, superpowers=[]):
+    def __init__(self, name):
         self.name = name
         self.superpowers = ['ab','bc','cd']
         self.lifepoints = random.randint(1,10)
@@ -35,9 +35,7 @@ class Superman:
     def decrease_life(self, x):
         old = self.lifepoints
         self.lifepoints -= x
-        print(f'\nTwoje zycie wynosilo {old}, ale zostalo obnizone o {x} i wnynosi teraz {self.lifepoints}')
 
 
 superman = Superman('superman')
-superman.decrease_life(3)
 
